@@ -1,0 +1,90 @@
+.container {
+  /* border: red solid 1px; */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mapboxgl-canvas {
+  border: 5px solid black;
+  text-align: justify;
+}
+
+.mapboxgl-map {
+  /* border: 5px solid red; */
+  text-align: justify;
+}
+
+button {
+  border: 2px solid black;
+}
+
+input {
+  border: 2px solid black;
+}
+
+.Title {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.button-box {
+  margin-top: 10px; 
+}
+
+.button-box button {
+  padding: 4px;
+  margin: 8px;
+}
+.Title {
+  font-family: 'Santana-Black';
+}
+
+.img-fluid {
+  margin-right: 15px;
+}
+
+.frappy {
+  border: 2px solid black;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.card-img {
+  display: none;
+}
+
+.countdown {
+  margin-top: 8px;
+  font-size: 22px;
+}
